@@ -1,0 +1,69 @@
+<!--Home Page-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>BooK your Flight</title>
+<link rel="stylesheet" type="text/css" href="style11.css" />
+</head>
+<body>
+	<section id="search_page">
+	
+	<header>
+	<h1>BOOK YOUR FLIGHT</h1>
+	
+	</header>
+
+	<article>
+	
+	<div class="line"></div>
+	<article id="art">
+	<div class="line"></div>
+	<div class="Article body">
+	
+	<form action="process.php" method="POST"> 
+	<h2>Search Your Flight</h2>
+	Departure:
+       <select name="s1" id="search_categories">
+          <option value="hyderabad">Hyderabad</option>
+          <option value="chennai">Chennai</option>
+          <option value="goa">Goa</option>
+          <option value="delhi">Delhi</option>
+		   <option value="china">China</option>
+		    <option value="canada">Canada</option>
+			 <option value="mumbai">Mumbai</option>
+			  <option value="paris">Paris</option>
+			  <option value="sydney">Sydney</option>
+			  <option value="dubai">Dubai</option>
+        </select>
+	Arrival:
+	<select name="s2" id="search_categories">
+          <option value="hyderabad">Hyderabad</option>
+          <option value="chennai">Chennai</option>
+          <option value="goa">Goa</option>
+          <option value="delhi">Delhi</option>
+		  <option value="china">China</option>
+		    <option value="canada">Canada</option>
+			 <option value="mumbai">Mumbai</option>
+			  <option value="paris">Paris</option>
+			  <option value="dubai">Dubai</option>
+			   <option value="sydney">Sydney</option>
+        </select>
+		<br><br>
+	
+	
+	<label>No.of.Passengers</label>
+	<input type="number" name="s3"required placeholder="eg:5">
+	<label>Date</label>
+	<input type="date" name="s4" required><br>
+	
+	<input type="submit" name="b1"value="SEARCH">
+
+	</form>
+	</div>
+	</article>
+	
+	
+	
+	</section>
+</body>
+</html>
