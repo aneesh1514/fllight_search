@@ -1,0 +1,29 @@
+Creating the databse
+-----------------------
+create database flight;
+
+Creating the tables
+--------------------
+create table search ( id int NOT NULL AUTO_INCREMENT,departure varchar(20) NOT NULL,arrival varchar(20),nop int(10),doj date, PRIMARY KEY (id) )
+ 
+
+create table confirmation(arr_time varchar(20),date date,depttime varchar(20),flightname varchar(20),nop int(10),price int(20));
+
+
+create table flightbase( arrival varchar(20),departure varchar(20),name varchar(20),price int(20),timearr varchar(20),timedept varchar(20),totaltime varchar(20));
+
+
+Inserting the data to flight base table
+---------------------------------------
+insert into flightbase values('hyderabad','chennai','indigo',2500,'10:00','8:00','2hrs');
+insert into flightbase values('chennai','hyderabad','spicejet',2500,'11:00','9:00','2hrs');
+insert into flightbase values('mumbai','delhi','indigo',3500,'12:00','10:00','2hrs');
+insert into flightbase values('mumbai','delhi','jetairways',3500,'13:00','11:00','2hrs');
+insert into flightbase values('mumbai','dubai','emirates',55000,'18:00','12:30','5:30hrs');
+insert into flightbase values('delhi','dubai','etihad',3500,'18:00','10:00','6hrs');
+insert into flightbase values('mumbai','hyderabad','spicejet',3500,'12:00','10:00','2hrs');
+insert into flightbase values('chennai','goa','indigo',3500,'14:00','12:00','2hrs');
+insert into flightbase values('paris','hyderabad','britishairways',45000,'12:00','5:00','7hrs');
+insert into flightbase values('hyderabad','china','airchina',35500,'11:30','7:00','4:30hrs');
+
+

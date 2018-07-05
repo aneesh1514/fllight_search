@@ -1,0 +1,5 @@
+To see the user searched information.
+select * from search;
+
+To see the user Booking information.
+select * from confirmation;
